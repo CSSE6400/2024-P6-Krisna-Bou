@@ -20,7 +20,7 @@ provider "aws" {
 }
 
 locals {
-    image = "ghcr.io/csse6400/taskoverflow:latest"
+    image = "ghcr.io/csse6400/csse6400-cloud-testing:latest"
     database_username = "administrator"
     database_password = "VerySecurePassword123XYZ"
 }
